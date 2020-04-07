@@ -21,7 +21,7 @@ def randomlist():
         counter += 1
 
     msg += "\n"
-    msg += "Reminder: Llenar el doc -> https://docs.google.com/document/d/1pJJ3SE4bHeKOFzWgBdDPiCgD_Mt7H9QrRYErx4oynnQ/edit \n"
+    msg += "Reminder: Llenar el doc :point_down: \nhttps://docs.google.com/document/d/1pJJ3SE4bHeKOFzWgBdDPiCgD_Mt7H9QrRYErx4oynnQ/edit \n\n"
     msg += "Que tengan buen día Release Team :party_parrot: #LoMejorEstaLlegando"
 
     response = {
