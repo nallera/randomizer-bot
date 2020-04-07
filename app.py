@@ -14,9 +14,19 @@ def hello_world():
 def randomlist():
     l = ['Clau', 'Juan', 'Tonny', 'Dani', 'Tincho', 'Dari', 'Lucho']
     random.shuffle(l)
+    msg = ""
+    counter = 1
+    for member in l:
+        msg += str(counter) + ". " + member + "\n"
+        counter += 1
+
+    msg += "\n"
+    msg += "Reminder: Llenar el doc -> https://docs.google.com/document/d/1pJJ3SE4bHeKOFzWgBdDPiCgD_Mt7H9QrRYErx4oynnQ/edit \n"
+    msg += "Que tengan buen día Release Team :party_parrot: #LoMejorEstaLlegando"
+
     response = {
         "response_type": "in_channel",
-        "text": str(l)
+        "text": msg
     }
     return jsonify(response)
 
