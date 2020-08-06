@@ -20,9 +20,8 @@ def randomlist():
         msg += str(counter) + ". " + member + "\n"
         counter += 1
 
-    msg += "\n"
-    msg += "Reminder: Llenar el doc :point_down: \nhttps://docs.google.com/document/d/1pJJ3SE4bHeKOFzWgBdDPiCgD_Mt7H9QrRYErx4oynnQ/edit \n\n"
-    msg += "Que tengan buen día Release Team :party_parrot: #LoMejorEstaLlegando"
+    msg += "\n\n"
+    msg += "Link al jira: https://mercadolibre.atlassian.net/secure/RapidBoard.jspa?rapidView=915&projectKey=AMP"
 
     response = {
         "response_type": "in_channel",

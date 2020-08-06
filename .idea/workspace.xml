@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca1ed92-bd28-4ecc-8dbc-0779d004b04f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -74,6 +75,12 @@
       <workItem from="1584715441296" duration="5253000" />
       <workItem from="1585146260069" duration="68000" />
       <workItem from="1586277982301" duration="1122000" />
+      <workItem from="1586284294745" duration="175000" />
+      <workItem from="1586351935321" duration="12000" />
+      <workItem from="1592576574113" duration="233000" />
+      <workItem from="1592829725099" duration="219000" />
+      <workItem from="1594058729523" duration="29000" />
+      <workItem from="1596734233596" duration="262000" />
     </task>
     <servers />
   </component>
@@ -85,9 +92,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1584725971022" />
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1584716735885">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="399" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1586351935490">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="399" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586351935490" />
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1584716735885" />
   </component>
 </project>
