@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eca1ed92-bd28-4ecc-8dbc-0779d004b04f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,11 +84,12 @@
       <workItem from="1598441181861" duration="115000" />
       <workItem from="1614083701487" duration="507000" />
       <workItem from="1614442287406" duration="46000" />
+      <workItem from="1615380643473" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584725971022">
