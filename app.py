@@ -12,7 +12,7 @@ def hello_world():
 
 @app.route('/random-list', methods=['GET', 'POST'])
 def randomlist():
-    l = ['Clau', 'Tonny', 'Lucho', 'Facu', 'Luis', 'Nico']
+    l = ['Clau', 'Tonny', 'Lucho', 'Facu', 'Luis', 'Nico', 'Emi']
     random.shuffle(l)
     msg = ""
     counter = 1
