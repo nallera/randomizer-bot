@@ -21,7 +21,7 @@ def randomlist():
         counter += 1
 
     msg += "\n\n"
-    msg += "Link al jira: https://mercadolibre.atlassian.net/secure/RapidBoard.jspa?rapidView=915&projectKey=AMP"
+    msg += "Link al jira: https://mercadolibre.atlassian.net/secure/RapidBoard.jspa?rapidView=4087"
 
     response = {
         "response_type": "in_channel",
