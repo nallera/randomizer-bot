@@ -10,9 +10,9 @@ def hello_world():
     return 'Hello World!'
 
 
-@app.route('/random-list', methods=['GET', 'POST'])
+@app.route('/random-list/ar', methods=['GET', 'POST'])
 def randomlist():
-    l = ['Clau', 'Tonny', 'Facu', 'Nico', 'Emi', 'Flavio', 'Adolpho', 'Philippe']
+    l = ['Clau', 'Tonny', 'Facu', 'Nico', 'Emi', 'Flavio']
     random.shuffle(l)
     msg = ""
     counter = 1
@@ -21,7 +21,7 @@ def randomlist():
         counter += 1
 
     msg += "\n\n"
-    msg += "Link al jira: https://mercadolibre.atlassian.net/secure/RapidBoard.jspa?rapidView=4087"
+    msg += "Link al jira: https://mercadolibre.atlassian.net/jira/software/c/projects/PRI/boards/5839"
 
     response = {
         "response_type": "in_channel",
@@ -29,6 +29,24 @@ def randomlist():
     }
     return jsonify(response)
 
+@app.route('/random-list/br', methods=['GET', 'POST'])
+def randomlist():
+    l = ['Adolpho', 'Philippe', 'Natan', 'Gabriel', 'Pedro', 'Valdeir', 'Gabriel']
+    random.shuffle(l)
+    msg = ""
+    counter = 1
+    for member in l:
+        msg += str(counter) + ". " + member + "\n"
+        counter += 1
+
+    msg += "\n\n"
+    msg += "Link al jira: https://mercadolibre.atlassian.net/jira/software/c/projects/PRI/boards/5839"
+
+    response = {
+        "response_type": "in_channel",
+        "text": msg
+    }
+    return jsonify(response)
 
 if __name__ == "__main__":
     logger = logging.getLogger()
